@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -34,5 +38,95 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.all {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.profile {
+  width: 100%;
+  margin-top: 50px;
+}
+.share-svg {
+  float: right;
+  /* position: relative;
+  right: 100px; */
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 100px;
+  border-style: dashed;
+  margin-bottom: 20px;
+}
+.profile-name {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile-img {
+  border-radius: 100%;
+  margin: auto;
+  display: flex;
+  padding-bottom: 20px;
+  /* size: 100%; */
+}
+.link-btn {
+  height: 60px;
+  max-width: 100%;
+  background-color: rgb(223, 210, 210);
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 30px 0px 30px 0px;
+}
+.icons img {
+  padding: 0px 10px 0px 10px;
+}
+.hr {
+  width: 100%;
+  margin: auto;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.footer img {
+  margin: auto;
+}
+.footer p {
+  /* max-width: 250px; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(65, 67, 68);
+  margin: auto;
+}
+@media screen and (max-width: 605px) {
+  .footer {
+    display: block;
+  }
+  .footer img {
+    padding-bottom: 20px;
+  }
+  .footer p {
+    padding-bottom: 20px;
   }
 }
